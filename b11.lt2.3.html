@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // vẽ hình tam giác thuận
+
+
+    //  let rs='';
+    //  for (let i=0; i<=5; i++){
+    //      for(let j=0;j<i;j++ ){
+    //          rs+='*'
+    //      }
+    //      rs+='<br>'
+    //  }
+    //  document.write(rs)
+
+
+    // vẽ hình tam giác ngược
+
+
+    // let rs='';
+    //  for (let i=5; i>=0; i--){
+    //      for(let j=0;j<i;j++){
+    //          rs+='*'
+    //      }
+    //      rs +='<br>'
+    //  }
+    //  document.write(rs)
+
+    //tam giac vuong lech phải
+
+
+    // let rs = '';
+    // for (let i = 0; i <= 5; i++) {
+    //     for (let k = 4 - i; k >= 0; k--) {
+    //         rs += '&nbsp;&nbsp'
+    //     }
+    //     for (let j = 1; j <= i; j++) {
+    //         rs += '*'
+    //     }
+    //     rs += '<br>'
+    // }
+    // document.write(rs)
+
+    //tam giac vuong lech trái
+
+    let rs = '';
+    for (let i = 5; i >= 0; i--) {
+        for (let k = 0 + i; k <= 4; k++) {
+            rs += '&nbsp;&nbsp'
+        }
+        for (let j = 1; j <= i; j++) {
+            rs += '*'
+        }
+        rs += '<br>'
+    }
+    document.write(rs)
+
+
+</script>
+</body>
+</html>

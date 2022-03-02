@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // đề hcn dài 7 rộng 3
+    // let width=7
+    // let height=3
+    // let rs='';
+    // for (let i=0; i<3; i++){
+    //     for(let j=0;j<7;j++ ){
+    //         rs+='*'
+    //     }
+    //     rs+='<br>'
+    // }
+    // document.write(rs)
+
+
+    //bai tap sd break
+
+    // while (true) {
+    //     let a = prompt('nhap vào');
+    //     if (a == -1) {
+    //         break;
+    //     }
+    // }
+
+    //nhap a kiem tra xem a la so nguyen to k
+    let a = +prompt('nhap a vào');
+    let check = 'là số nguyên tố';
+    if (a < 2) {
+        check = 'k là số ng tố';
+    } else if (a == 2) {
+        check = 'là số ng tố';
+    } else {
+        for (let i = 2; i < a; i++) {
+            if (a % i == 0) {
+                check = 'kp là số nto';
+                break;
+            }
+        }
+    }
+    alert(check)
+
+
+</script>
+</body>
+</html>
